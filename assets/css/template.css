@@ -2969,7 +2969,7 @@ body.off-canvas-sidebar-open .layout {
         letter-spacing: .7px;
         line-height: 24px;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 15px;
         color: #fff;
         padding: 8px 0;
     }
@@ -3178,7 +3178,7 @@ body.off-canvas-sidebar-open .layout {
 .module,
 .module-sm {
     background-color: #fff;
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 .module-sm {
