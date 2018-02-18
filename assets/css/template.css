@@ -3380,6 +3380,12 @@ body.off-canvas-sidebar-open .layout {
     }
 
     .module-header {
+        height: 350px;
+        min-height: 350px;
+        padding: 40px 0;
+    }
+
+    .module-header-little {
         height: 300px;
         min-height: 300px;
         padding: 40px 0;
