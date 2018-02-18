@@ -21,6 +21,7 @@
   <link href="assets/css/plugins.min.css" rel="stylesheet">
   <!-- Template core CSS-->
   <link href="assets/css/template.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body>
@@ -41,11 +42,12 @@
             <div class="inner-nav">
               <ul>
                 <li class="menu-item">
-                  <a href="#">Sobre</a>
+                  <a href="index.html">Início</a>
                 </li>
 
-                <li class="menu-item-has-children"><a href="roteiro_um.html">Percurso 1</a>
+                <li class="menu-item-has-children"><a href="">Percurso Estruturas</a>
                   <ul class="sub-menu">
+                    <li><a href="percurso_um_ponto_zero.html">Ponto 0</a></li>
                     <li><a href="percurso_um_ponto_um.html">Ponto 1</a></li>
                     <li><a href="percurso_um_ponto_dois.html">Ponto 2</a></li>
                     <li><a href="percurso_um_ponto_tres.html">Ponto 3</a></li>
@@ -57,7 +59,7 @@
                   </ul>
                 </li>
 
-                <li class="menu-item-has-children"><a href="#">Percurso 2</a>
+                <li class="menu-item-has-children"><a href="#">Percurso Acontecimentos</a>
                   <ul class="sub-menu">
                     <li><a href="percurso_dois_ponto_um.html">Ponto 1</a></li>
                     <li><a href="percurso_dois_ponto_dois.html">Ponto 2</a></li>
@@ -69,7 +71,7 @@
                   </ul>
                 </li>
 
-                <li class="menu-item-has-children"><a href="#">Percurso 3</a>
+                <li class="menu-item-has-children"><a href="#">Percurso Vidas</a>
                   <ul class="sub-menu">
                     <li><a href="percurso_tres_ponto_um.html">Ponto 1</a></li>
                     <li><a href="percurso_tres_ponto_dois.html">Ponto 2</a></li>
@@ -111,20 +113,18 @@
 
       <!-- Blog-->
       <section class="module">
-        <div class="container">
-          <div class="row">
-            <!-- Content-->
-            <div class="col-lg-8 m-auto">
-
-              <!-- Post-->
-              <article class="post">
+        <!-- Post-->
+        <article class="post">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 m-auto">
                 <div class="post-wrapper">
                   <div class="post-header">
                     <h2 class="post-title">Ponto 1</h2>
                     <h3>As quitandeiras, as barraquinhas e o mercado</h3>
                   </div>
                   <div class="post-content">
-                    <p style="text-align:justify;text-indent: 1.8em">
+                    <p class="fonte">
                       Desterro era considerada já no século XVIII centro marítimo e comercial. Os gêneros
                       alimentícios mais exportados era a farinha de mandioca, o arroz,
                       o azeite de baleia, a cal, o feijão, milho, melado, peixe salgado,
@@ -139,7 +139,7 @@
                       integrante do fervo comercial, formado também por oleiros e
                       mascates.
                     </p>
-                    <p style="text-align:justify;text-indent: 1.8em">
+                    <p class="fonte">
                       D. Pedro II em 1845 chegou em Desterro e as barraquinhas, consideradas impróprias,
                       desorganizadas e “populares demais”, foram retiradas pelas
                       autoridades locais, colocadas nas redondezas da Ponte do Vinagre,
@@ -147,9 +147,19 @@
                     </p>
                   </div>
                 </div>
-                <br>
-                <div class="post-preview"><img src="assets/images/percursos/imagem1.png" alt=""></div>
-                <p style="text-align:justify;text-indent: 1.8em">
+              </div>
+            </div>
+          </div>
+          <br>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem1.png"
+            data-no-android="true">
+          </section>
+          <br>
+          <!-- <div class="post-preview"><img src="assets/images/percursos/imagem1.png" alt=""></div> -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 m-auto">
+                <p class="fonte">
                   Era emergente a necessidade de um espaço de comércio próprio para a cidade, o que
                   veio a ser chamado de Mercado Público. O Barraquistas (representados
                   principalmente por João Pinto da Luz) defendiam que fosse construído
@@ -163,7 +173,7 @@
                   para venda de carne, pátio central com um poço e os lugares de
                   quitandeiras, que eram os vãos que ficavam entre as colunas.
                 </p>
-                <p style="text-align:justify;text-indent: 1.8em">
+                <p class="fonte">
                   Era emergente a necessidade de um espaço de comércio próprio para a cidade, o que
                   veio a ser chamado de Mercado Público. O Barraquistas (representados
                   principalmente por João Pinto da Luz) defendiam que fosse construído
@@ -171,7 +181,7 @@
                   Vinagristas (representados por Jerônimo Coelho) onde era a Ponte
                   do Vinagre.
                 </p>
-                <p style="text-align:justify;text-indent: 1.8em">
+                <p class="fonte">
                   Os Barraquistas venceram e o prédio do Mercado, uma construção retangular coberta
                   por telhas de barro, foi inaugurado em 1851. Possuía 34m de frente
                   para a praça e 21m de lateral com 24 janelas em forma de semicírculos
@@ -180,61 +190,84 @@
                   com um poço e os lugares de quitandeiras, que eram os vãos que
                   ficavam entre as colunas.
                 </p>
-                <div class="post-preview"><img src="assets/images/percursos/imagem2.png" alt=""></div>
-                <div class="col-md-11 m-auto">
-                  <div class="special-heading">
-                    <h4>Curiosidade</h4>
-                  </div>
-                  <blockquote>
-                    <p style="text-align:justify;text-indent: 1.8em">
-                      No ano de 1872, a freguesia Nossa Senhora do Desterro, nome do atual centro histórico,
-                      possuía 8608 habitantes. A população total de Desterro era
-                      composta por 22769 indivíduos livres e 2940 escravos distribuídos
-                      entre as freguesias de Nossa Senhora do Desterro, Nossa Senhora
-                      das Necessidades de Santo Antônio, Nossa Senhora da Lapa do
-                      Ribeirão, São João Batista do Rio Vermelho, Santíssima Trindade
-                      Detrás do Morro e Nossa Senhora da Conceição da Lagoa.
-                    </p>
-                  </blockquote>
+              </div>
+            </div>
+          </div>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem2.png"
+            data-no-android="true">
+          </section>
+          <br>
+          <!-- <div class="post-preview "><img src="assets/images/percursos/imagem2.png
+                " alt=" "></div> -->
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-11 m-auto ">
+                <div class="special-heading ">
+                  <h4>Curiosidade</h4>
                 </div>
-                <div class="col-md-11 m-auto">
-                  <div class="special-heading">
-                    <h4>Curiosidade</h4>
-                  </div>
-                  <blockquote>
-                    <p style="text-align:justify;text-indent: 1.8em">
-                      Segundo alguns autores, o comércio ambulante brasileiro tem suas origens ligada,
-                      em alguma medida, à cultura portuguesa que tinha mulheres comerciantes
-                      de rua protegidas de alguma forma por leis especiais. Os homens
-                      eram impedidos de comercializar doces, frutas, bolos, hortaliças,
-                      pois podiam tirar o sustento das mulheres “pobres e decentes”.
-                      Aqui, esse tipo de comércio foi exercido pelas escravas ou
-                      libertas, acabando por se tornar relacionado as classes subalternas.
-                      As quitandeiras saíam pelas ruas vendendo frutas, doces, verduras,
-                      abrigando-se debaixo de toldos de esteira para se proteger
-                      do sol, e segundo a legislação do século XIX, deveriam pagar
-                      ao fisco 12$000 réis ao ano. Já as quitandas eram definidas
-                      na época como “casas em que principalmente se vendem verduras,
-                      frutas, carvão, lenha, ovos, e outras miudezas semelhantes,
-                      ainda que nelas também se vendam gêneros comestíveis da terra,
-                      como farinha, arroz, milho, etc., por peso ou medida em pequena
-                      quantidade”. Já as pombeiras e pombeiros eram aqueles que compravam
-                      produtos para revender em locais públicos.
-                    </p>
-                  </blockquote>
+                <blockquote>
+                  <p class="fonte ">
+                    No ano de 1872, a freguesia Nossa Senhora do Desterro, nome do atual centro histórico,
+                    possuía 8608 habitantes. A população total de Desterro era composta
+                    por 22769 indivíduos livres e 2940 escravos distribuídos entre
+                    as freguesias de Nossa Senhora do Desterro, Nossa Senhora das
+                    Necessidades de Santo Antônio, Nossa Senhora da Lapa do Ribeirão,
+                    São João Batista do Rio Vermelho, Santíssima Trindade Detrás
+                    do Morro e Nossa Senhora da Conceição da Lagoa.
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-11 m-auto ">
+                <div class="special-heading ">
+                  <h4>Curiosidade</h4>
                 </div>
-                <p style="text-align:justify;text-indent: 1.8em">
-                  A população poderia encontrar no novo Mercado Público “Maçãs muito frescas, há pouco
-                  chegadas da Europa” no tabuleiro de George Favier; “batata superior
-                  inglesa”, “cangica muito boa” e um “completo sortimento de sementes
-                  muito frescas e garantidas” nos “quartos” n. 5 e n. 6 do Mercado;
-                  batatas, marmeladas e sementes de hortaliças tanto na casinha n.
-                  3 quanto na Rua do Senado n. 5537. Muitas das vendas do Mercado
-                  tinham filiais em outras ruas da cidade, como na Rua Augusta, atual
-                  Rua João Pinto, e na Rua do Príncipe, atual Conselheiro Mafra.
-                </p>
-                <div class="post-preview"><img src="assets/images/percursos/imagem3.png" alt=""></div>
-                <p style="text-align:justify;text-indent: 1.8em">
+                <blockquote>
+                  <p class="fonte ">
+                    Segundo alguns autores, o comércio ambulante brasileiro tem suas origens ligada,
+                    em alguma medida, à cultura portuguesa que tinha mulheres comerciantes
+                    de rua protegidas de alguma forma por leis especiais. Os homens
+                    eram impedidos de comercializar doces, frutas, bolos, hortaliças,
+                    pois podiam tirar o sustento das mulheres “pobres e decentes”.
+                    Aqui, esse tipo de comércio foi exercido pelas escravas ou libertas,
+                    acabando por se tornar relacionado as classes subalternas. As
+                    quitandeiras saíam pelas ruas vendendo frutas, doces, verduras,
+                    abrigando-se debaixo de toldos de esteira para se proteger do
+                    sol, e segundo a legislação do século XIX, deveriam pagar ao
+                    fisco 12$000 réis ao ano. Já as quitandas eram definidas na época
+                    como “casas em que principalmente se vendem verduras, frutas,
+                    carvão, lenha, ovos, e outras miudezas semelhantes, ainda que
+                    nelas também se vendam gêneros comestíveis da terra, como farinha,
+                    arroz, milho, etc., por peso ou medida em pequena quantidade”.
+                    Já as pombeiras e pombeiros eram aqueles que compravam produtos
+                    para revender em locais públicos.
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="row">
+              <p class="fonte ">
+                A população poderia encontrar no novo Mercado Público “Maçãs muito frescas, há pouco
+                chegadas da Europa” no tabuleiro de George Favier; “batata superior
+                inglesa”, “cangica muito boa” e um “completo sortimento de sementes
+                muito frescas e garantidas” nos “quartos” n. 5 e n. 6 do Mercado;
+                batatas, marmeladas e sementes de hortaliças tanto na casinha n.
+                3 quanto na Rua do Senado n. 5537. Muitas das vendas do Mercado tinham
+                filiais em outras ruas da cidade, como na Rua Augusta, atual Rua
+                João Pinto, e na Rua do Príncipe, atual Conselheiro Mafra.
+              </p>
+            </div>
+          </div>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem3.png"
+            data-no-android="true">
+          </section>
+          <br>
+          <!-- <div class="post-preview "><img src="assets/images/percursos/imagem3.png" alt=" "></div> -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 m-auto">
+                <p class="fonte ">
                   Mesmo com várias proibições, como realização de jogos, danças, divertimentos, circulação
                   de pretos e mendigos e permanência de escravos além do tempo de
                   compras dos seus senhores, o Largo do Mercado acabava sendo um
@@ -253,7 +286,7 @@
                   autonomia para elas, e que podia possibilitar acúmulo de pecúlio
                   para a compra da alforria”.
                 </p>
-                <p style="text-align:justify;text-indent: 1.8em">
+                <p class="fonte ">
                   Haviam opiniões na Câmara Municipal, localizada nos entornos do Largo (Rua dos Ilhéus,
                   nº194), que o mercado deveria ser demolido, pois era inadequado
                   e pequeno demais para a demanda que atendia. Em 1890 foi aprovada
@@ -261,8 +294,18 @@
                   que não foi suficiente para as novas reformas de saneamento e embelezamento
                   que a cidade passava.
                 </p>
-                <div class="post-preview"><img src="assets/images/percursos/imagem4.png" alt=""></div>
-                <p style="text-align:justify;text-indent: 1.8em">
+              </div>
+            </div>
+          </div>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem4.png"
+            data-no-android="true">
+          </section>
+          <br>
+          <!-- <div class="post-preview "><img src="assets/images/percursos/imagem4.png" alt=" "></div> -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 m-auto">
+                <p class="fonte ">
                   Assim, em 1896, foi colocada a primeira pedra de construção do novo Mercado Público
                   no Largo Silva e Jardim. Em 5 de fevereiro de 1899 o novo Mercado
                   Público foi inaugurado, onde hoje se encontra a primeira ala, e
@@ -272,8 +315,18 @@
                   tensões e a contraditória troca do nome da cidade em homenagem
                   à Floriano Peixoto que esteve de passagem na então antiga Desterro.
                 </p>
-                <div class="post-preview"><img src="assets/images/percursos/imagem5.png" alt=""></div>
-                <p style="text-align:justify;text-indent: 1.8em">
+              </div>
+            </div>
+          </div>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem5.png"
+            data-no-android="true">
+          </section>
+          <br>
+          <!-- <div class="post-preview "><img src="assets/images/percursos/imagem5.png" alt=" "></div> -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 m-auto">
+                <p class="fonte ">
                   O novo Mercado tinha embarque e desembarque de barcos, conectado as vias marítimas.
                   Em 1931 a segunda ala começou a funcionar construída sob um pequeno
                   aterro. Na década de 1950, ainda eram avistadas canoas e baleeiras
@@ -282,11 +335,34 @@
                   bem como mercadores do Saco dos Limões, Pantanal, Carvoeira, Córrego
                   e Agronômica.
                 </p>
-                <div class="post-preview"><img src="assets/images/percursos/imagem6.png" alt=""></div>
-                <div class="post-preview"><img src="assets/images/percursos/imagem7.png" alt=""></div>
-                <div class="post-preview"><img src="assets/images/percursos/imagem8.png" alt=""></div>
-                <div class="post-preview"><img src="assets/images/percursos/imagem9.png" alt=""></div>
-                <p style="text-align:justify;text-indent: 1.8em">
+              </div>
+            </div>
+          </div>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem6.png"
+            data-no-android="true">
+          </section>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem7.png"
+            data-no-android="true">
+          </section>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem8.png"
+            data-no-android="true">
+          </section>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem9.png"
+            data-no-android="true">
+          </section>
+          <br>
+          <!-- <div class="post-preview "><img src="assets/images/percursos/imagem6.png
+                " alt=" "></div>
+              <div class="post-preview "><img src="assets/images/percursos/imagem7.png
+                " alt=" "></div>
+              <div class="post-preview "><img src="assets/images/percursos/imagem8.png
+                " alt=" "></div>
+              <div class="post-preview "><img src="assets/images/percursos/imagem9.png
+                " alt=" "></div> -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 m-auto">
+                <p class="fonte ">
                   Na década de 1970, após a construção do aterro e das novas pontes, os peixes que
                   chegavam pelas canoas no mercado já não vinham pelo mar e sim sob
                   quatro rodas. A descaracterização do funcionamento do Mercado junto
@@ -295,89 +371,105 @@
                   caracterizar mais como um ponto turístico do que comercial. Em
                   1984, foi tomado pelo Iphan.
                 </p>
-                <div class="post-preview"><img src="assets/images/percursos/imagem10.png" alt=""></div>
-                <div class="post-preview"><img src="assets/images/percursos/imagem11.png" alt=""></div>
-                <div class="col-md-11 m-auto">
-                  <div class="special-heading">
-                    <h4>Curiosidade</h4>
-                  </div>
-                  <blockquote>
-                    <p style="text-align:justify;text-indent: 1.8em">
-                      Você conhece? O projeto Santa Afro Catarina roteiros elaborados especialmente sobre
-                      a história dos africanos e afrodescendentes na ilha de Santa
-                      Catarina. Foram preparados e conduzidos por historiadores,
-                      permitindo um novo olhar sobre a história e cultura catarinense.
-                      Para conhecer o projeto: <a href="http://santaafrocatarina.sites.ufsc.br/santaafrocatarina/?secao=roteiro&sm=roteiro&i=3_3_">Acesse aqui</a>
-                    </p>
-                  </blockquote>
-                </div>
-              </article>
-              <!-- Post end-->
-
+              </div>
             </div>
-            <!-- Content end-->
           </div>
-        </div>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem10.png"
+            data-no-android="true">
+          </section>
+          <section class="module-header full-height parallax" data-background="assets/images/percursos/imagem11.png"
+            data-no-android="true">
+          </section>
+          <br>
+          <!-- <div class="post-preview "><img src="assets/images/percursos/imagem10.png
+                " alt=" "></div>
+              <div class="post-preview "><img src="assets/images/percursos/imagem11.png
+                " alt=" "></div> -->
+          <div class="container">
+            <div class="col-md-11 m-auto ">
+              <div class="special-heading ">
+                <h4>Curiosidade</h4>
+              </div>
+              <blockquote>
+                <p class="fonte ">
+                  Você conhece? O projeto Santa Afro Catarina roteiros elaborados especialmente sobre
+                  a história dos africanos e afrodescendentes na ilha de Santa Catarina.
+                  Foram preparados e conduzidos por historiadores, permitindo um
+                  novo olhar sobre a história e cultura catarinense. Para conhecer
+                  o projeto: <a href="http://santaafrocatarina.sites.ufsc.br/santaafrocatarina/?secao=roteiro&sm=roteiro&i=3_3_ ">Acesse aqui</a>
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </article>
+        <!-- Post end-->
+
       </section>
       <!-- Blog end-->
 
       <!-- Footer-->
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg-3">
+      <footer class="footer ">
+        <div class="container ">
+          <div class="row ">
+            <div class="col-md-6 col-lg-3 ">
               <!-- Text widget-->
-              <aside class="widget widget_text">
-                <div class="textwidget">
-                  <p><img src="assets/images/logo.png" width="150" height="150" alt=""></p>
+              <aside class="widget widget_text ">
+                <div class="textwidget ">
+                  <p><img src="assets/images/logo.png " width="150 " height="150
+                " alt=" "></p>
                   <p>Projeto realizado com o apoio do Estado de Santa Catarina, Secretaria
                     de Estado de Turismo, Cultura e Esporte, Fundação Catarinense
                     de Cultura, FUNCULTURAL e Edital Elisabete Anderle/2017.</p>E-mail:
-                  <a href="mailto:support@core.com">support@core.com</a> <br/> Phone:
+                  <a href="mailto:support@core.com ">support@core.com</a> <br/> Phone:
                   8 800 123 4567 <br/> Fax: 8 800 123 4567 <br/>
                 </div>
               </aside>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 ">
               <!-- Recent entries widget-->
-              <aside class="widget widget_recent_entries">
-                <div class="widget-title">
+              <aside class="widget widget_recent_entries ">
+                <div class="widget-title ">
                   <h5>Recent Posts</h5>
                 </div>
                 <ul>
-                  <li><a href="#">Experience the sound of a modern and clean 360° Bluetooth Speaker.</a>                    <span class="post-date">May 8, 2016</span></li>
-                  <li><a href="#">Experience the sound of a modern and clean 360° Bluetooth Speaker.</a>                    <span class="post-date">April 7, 2016</span></li>
-                  <li><a href="#">Experience the sound of a modern and clean 360° Bluetooth Speaker.</a>                    <span class="post-date">April 7, 2016</span></li>
+                  <li><a href="#
+                ">Experience the sound of a modern and clean 360° Bluetooth Speaker.</a>                    <span class="post-date ">May 8, 2016</span></li>
+                  <li><a href="#
+                ">Experience the sound of a modern and clean 360° Bluetooth Speaker.</a>                    <span class="post-date ">April 7, 2016</span></li>
+                  <li><a href="#
+                ">Experience the sound of a modern and clean 360° Bluetooth Speaker.</a>                    <span class="post-date ">April 7, 2016</span></li>
                 </ul>
               </aside>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 ">
               <!-- Twitter widget-->
-              <aside class="widget twitter-feed-widget">
-                <div class="widget-title">
+              <aside class="widget twitter-feed-widget ">
+                <div class="widget-title ">
                   <h5>Twitter Feed</h5>
                 </div>
-                <div class="twitter-feed" data-twitter="345170787868762112" data-number="1"></div>
+                <div class="twitter-feed " data-twitter="345170787868762112
+                " data-number="1 "></div>
               </aside>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 ">
               <!-- Tags widget-->
-              <aside class="widget widget_tag_cloud">
-                <div class="widget-title">
+              <aside class="widget widget_tag_cloud ">
+                <div class="widget-title ">
                   <h5>Tags</h5>
                 </div>
-                <div class="tagcloud"><a href="#">Design</a><a href="#">Travel</a><a href="#">Startup</a>
-                  <a href="#">Music</a>
-                  <a href="#">Portfolio</a><a href="#">Responsive</a></div>
+                <div class="tagcloud "><a href="# ">Design</a><a href="#
+                ">Travel</a><a href="# ">Startup</a>
+                  <a href="# ">Music</a>
+                  <a href="# ">Portfolio</a><a href="# ">Responsive</a></div>
               </aside>
             </div>
           </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="text-center"><span class="copyright">© 2018 Onde está Desterro</span></div>
+        <div class="footer-copyright ">
+          <div class="container ">
+            <div class="row ">
+              <div class="col-md-12 ">
+                <div class="text-center "><span class="copyright ">© 2018 Onde está Desterro</span></div>
               </div>
             </div>
           </div>
@@ -385,7 +477,7 @@
       </footer>
       <!-- Footer end-->
 
-      <a class="scroll-top" href="#top"><i class="fa fa-angle-up"></i></a>
+      <a class="scroll-top " href="#top "><i class="fa fa-angle-up "></i></a>
     </div>
     <!-- Wrapper end-->
 
@@ -393,12 +485,12 @@
   <!-- Layout end-->
 
   <!-- Scripts-->
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/plugins.min.js"></script>
-  <script src="assets/js/charts.js"></script>
-  <script src="assets/js/custom.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js "></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js "></script>
+  <script src="assets/js/plugins.min.js "></script>
+  <script src="assets/js/charts.js "></script>
+  <script src="assets/js/custom.min.js "></script>
 
 </body>
 
