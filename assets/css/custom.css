@@ -14,17 +14,29 @@
 .fonte-blockquote {
   color:#272222;
   font-size:1.0em;
-  line-height: 1.8;
-  text-align:justify;
+  line-height: 1.4;
   text-indent: 1.8em;
-  box-shadow: 15px 0 0 0 #dae0bf, -5px 0 0 0 #dae0bf;
-	background: #dae0bf;
-	display: inline;
-	padding: 3px 0 !important;
+  letter-spacing: 1px;
+  box-shadow: 15px 0 0 0 #e9f7a8, -5px 0 0 0 #e9f7a8;
+	background: #e9f7a8;
+	text-align:justify;
 	position: relative;
   font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
 }
 
 p:first-letter {
 	font-size:150%;
+}
+
+blockquote:hover {
+  border-left: 2px solid #CDE26E !important;
+}
+
+.special-heading h1,
+.special-heading h2,
+.special-heading h3,
+.special-heading h4,
+.special-heading h5,
+.special-heading h6 {
+    border-bottom: 2px solid #CDE26E !important;
 }
