@@ -8,5 +8,23 @@
   line-height: 1.8;
   text-align:justify;
   text-indent: 1.8em;
-  /*font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;*/
+  font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
+}
+
+.fonte-blockquote {
+  color:#272222;
+  font-size:1.0em;
+  line-height: 1.8;
+  text-align:justify;
+  text-indent: 1.8em;
+  box-shadow: 15px 0 0 0 #dae0bf, -5px 0 0 0 #dae0bf;
+	background: #dae0bf;
+	display: inline;
+	padding: 3px 0 !important;
+	position: relative;
+  font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
+}
+
+p:first-letter {
+	font-size:150%;
 }
