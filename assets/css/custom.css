@@ -28,8 +28,16 @@ p:first-letter {
 	font-size:150%;
 }
 
+blockquote {
+  margin-top: 5px !important
+}
+
 blockquote:hover {
   border-left: 2px solid #CDE26E !important;
+}
+
+.special-heading {
+  margin-bottom: 0 !important;
 }
 
 .special-heading h1,
