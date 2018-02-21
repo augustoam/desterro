@@ -24,7 +24,17 @@
   font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
 }
 
-p:first-letter {
+.fonte-legenda {
+  color:#272222;
+  font-size:0.8em;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-style: italic;
+  text-align:justify;
+  font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
+}
+
+.fonte:first-letter {
 	font-size:150%;
 }
 
