@@ -4913,19 +4913,9 @@ a[rel~="gallery"]:hover {
 [Shop]
 */
 
-.shop-grid-item {
-    margin: 0 0 40px;
-}
-
 .shop-grid-item .shop-item-thumb {
     position: relative;
     overflow: hidden;
-    margin: 0 0 20px;
-}
-
-.shop-grid-item .shop-item-thumb img {
-    -webkit-transition: all .3s ease-in-out 0s;
-            transition: all .3s ease-in-out 0s;
 }
 
 .shop-grid-item .shop-item-thumb .shop-item-hidden {

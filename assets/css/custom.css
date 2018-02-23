@@ -14,23 +14,12 @@
 .fonte-blockquote {
   color:#272222;
   font-size:1.0em;
-  line-height: 1.4;
-  text-indent: 1.8em;
+  line-height: 1.;
   letter-spacing: 1px;
-  box-shadow: 15px 0 0 0 #e9f7a8, -5px 0 0 0 #e9f7a8;
-	background: #e9f7a8;
+  box-shadow: 15px 0 0 0 #ecb2bd, -5px 0 0 0 #ecb2bd;
+	background: #ecb2bd;
 	text-align:justify;
 	position: relative;
-  font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
-}
-
-.fonte-legenda {
-  color:#272222;
-  font-size:0.8em;
-  line-height: 1.4;
-  letter-spacing: 1px;
-  font-style: italic;
-  text-align:justify;
   font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
 }
 
@@ -43,18 +32,40 @@ blockquote {
 }
 
 blockquote:hover {
-  border-left: 2px solid #CDE26E !important;
+  border-left: 2px solid #ecb2bd !important;
 }
 
 .special-heading {
   margin-bottom: 0 !important;
 }
 
-.special-heading h1,
-.special-heading h2,
-.special-heading h3,
-.special-heading h4,
-.special-heading h5,
-.special-heading h6 {
-    border-bottom: 2px solid #CDE26E !important;
+.shop-grid-item .shop-item-thumb:hover img {
+  opacity: 1;
+}
+
+.color-estruturas{
+  background-color:#ecb2bd;
+  /*box-shadow: 15px 0 0 0 #ecb2bd, -5px 0 0 0 #ecb2bd;*/
+}
+
+.color-vidas{
+  background-color:#e89c43;
+  /*box-shadow: 15px 0 0 0 #e89c43, -5px 0 0 0 #e89c43;*/
+}
+
+.color-acontecimentos {
+  background-color:#df6a49;
+  /*box-shadow: 15px 0 0 0 #df6a49, -5px 0 0 0 #df6a49;*/
+}
+
+.container-legenda {
+  opacity: 0.7;
+  margin: 0;
+  background-color: black;
+}
+
+.container-legenda .fonte-legenda {
+  margin: 0px 10px 0px 10px;
+  font-size:0.9em;
+  text-align: center;
 }
