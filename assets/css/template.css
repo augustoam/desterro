@@ -3386,8 +3386,8 @@ body.off-canvas-sidebar-open .layout {
     }
 
     .module-header-little {
-        height: 500px;
-        min-height: 500px;
+        height: 200px;
+        min-height: 200px;
         padding: 40px 0;
     }
 
@@ -4916,6 +4916,8 @@ a[rel~="gallery"]:hover {
 .shop-grid-item .shop-item-thumb {
     position: relative;
     overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .shop-grid-item .shop-item-thumb .shop-item-hidden {

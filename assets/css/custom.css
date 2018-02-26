@@ -8,7 +8,7 @@
   line-height: 1.8;
   text-align:justify;
   text-indent: 1.8em;
-  font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
+  /*font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;*/
 }
 
 .fonte-blockquote {
@@ -20,7 +20,7 @@
 	background: #ecb2bd;
 	text-align:justify;
 	position: relative;
-  font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;
+  /*font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;*/
 }
 
 .fonte:first-letter {
