@@ -1,5 +1,5 @@
-.btn.btn-brand {
-  background-color: black !important;
+.row {
+  margin: 0;
 }
 
 .fonte {
@@ -18,6 +18,17 @@
   letter-spacing: 1px;
   box-shadow: 15px 0 0 0 #ecb2bd, -5px 0 0 0 #ecb2bd;
 	background: #ecb2bd;
+	text-align:justify;
+	position: relative;
+  /*font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;*/
+}
+
+.fonte-referencia {
+  color:#272222;
+  font-size:1.0em;
+  line-height: 1.;
+  letter-spacing: 1px;
+
 	text-align:justify;
 	position: relative;
   /*font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;*/
@@ -48,7 +59,7 @@ blockquote:hover {
 
 .color-estruturas{
   background-color:#ecb2bd;
-  /*box-shadow: 15px 0 0 0 #ecb2bd, -5px 0 0 0 #ecb2bd;*/
+  box-shadow: 5px 0 0 0 #ecb2bd, -5px 0 0 0 #ecb2bd;
 }
 
 .color-vidas{
@@ -59,6 +70,20 @@ blockquote:hover {
 .color-acontecimentos {
   background-color:#df6a49;
   /*box-shadow: 15px 0 0 0 #df6a49, -5px 0 0 0 #df6a49;*/
+}
+
+.color-geral {
+  background-color: #dac078;
+  box-shadow: 5px 0 0 0 #dac078, -5px 0 0 0 #dac078;
+}
+
+.titulo-pontos {
+  background-color:#ecb2bd;
+  box-shadow: 5px 0 0 0 #ecb2bd, -5px 0 0 0 #ecb2bd;
+  font-size: 1.6em;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #313131;
 }
 
 .container-legenda {
