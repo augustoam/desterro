@@ -59,17 +59,14 @@ blockquote:hover {
 
 .color-estruturas{
   background-color:#ecb2bd;
-  box-shadow: 5px 0 0 0 #ecb2bd, -5px 0 0 0 #ecb2bd;
 }
 
 .color-vidas{
   background-color:#e89c43;
-  /*box-shadow: 15px 0 0 0 #e89c43, -5px 0 0 0 #e89c43;*/
 }
 
 .color-acontecimentos {
   background-color:#df6a49;
-  /*box-shadow: 15px 0 0 0 #df6a49, -5px 0 0 0 #df6a49;*/
 }
 
 .color-geral {
@@ -77,9 +74,18 @@ blockquote:hover {
   box-shadow: 5px 0 0 0 #dac078, -5px 0 0 0 #dac078;
 }
 
-.titulo-pontos {
-  background-color:#ecb2bd;
+.box-shadow-estruturas {
   box-shadow: 5px 0 0 0 #ecb2bd, -5px 0 0 0 #ecb2bd;
+}
+.box-shadow-vidas {
+  box-shadow: 5px 0 0 0 #e89c43, -5px 0 0 0 #e89c43;
+}
+
+.box-shadow-acontecimentos {
+box-shadow: 5px 0 0 0 #df6a49, -5px 0 0 0 #df6a49;
+}
+
+.titulo-pontos {
   font-size: 1.6em;
   line-height: 1.2;
   font-weight: 700;
