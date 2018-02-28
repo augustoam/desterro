@@ -23,15 +23,11 @@
   /*font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;*/
 }
 
-.fonte-referencia {
+.fonte-ref {
   color:#272222;
   font-size:1.0em;
-  line-height: 1.;
-  letter-spacing: 1px;
-
 	text-align:justify;
 	position: relative;
-  /*font-family: "PrattRegular",Georgia,"Times New Roman ",Times,serif;*/
 }
 
 .fonte:first-letter {
